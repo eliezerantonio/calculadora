@@ -23,7 +23,7 @@ class _CalculatorState extends State<Calculator> {
   Widget build(BuildContext context) {
     return Column(
       children: [
-        Display("text"),
+        Display(memory.value),
         Keyboard(
           cb: _onPressed,
         ),
