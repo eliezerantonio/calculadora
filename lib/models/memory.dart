@@ -1,4 +1,5 @@
-class Memory{
+class Memory {
+  String _value = '0';
 
-  String 
+  String get value => _value;
 }
