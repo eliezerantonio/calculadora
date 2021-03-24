@@ -1,3 +1,4 @@
+import 'package:calculadora/screens/keyboard.dart';
 import 'package:calculadora/widgets/display.dart';
 import 'package:flutter/material.dart';
 
@@ -6,10 +7,11 @@ class Calculator extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-        body: Column(children: [
-      Display("text"),
-      Text("keyboard"),
-    ]));
+    return Column(
+      children: [
+        Display("text"),
+        Keyboard(),
+      ],
+    );
   }
 }

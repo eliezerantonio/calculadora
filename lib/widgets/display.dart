@@ -16,18 +16,19 @@ class Display extends StatelessWidget {
           children: [
             Padding(
               padding: const EdgeInsets.all(8.0),
-              child:  AutoSizeText(
-          "text",
-          maxFontSize: 90,
-          minFontSize: 20,
-          maxLines: 1,
-          textAlign: TextAlign.end,
-          style: TextStyle(
-            fontWeight: FontWeight.w100,
-            fontSize: 80,
-            color: Colors.white,
-          ),
-        ),
+              child: AutoSizeText(
+                "text",
+                maxFontSize: 90,
+                minFontSize: 20,
+                maxLines: 1,
+                textAlign: TextAlign.end,
+                style: TextStyle(
+                  fontWeight: FontWeight.w100,
+                  fontSize: 80,
+                  color: Colors.white,
+                  decoration: TextDecoration.none,
+                ),
+              ),
             ),
           ],
         ),
