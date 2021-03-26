@@ -17,6 +17,7 @@ class Memory {
   }
 
   _setOperation(String newOperation) {
+    
     _wipeValue = true;
   }
 
